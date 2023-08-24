@@ -1,0 +1,19 @@
+{
+	"dependencies": {
+		"mongodb": "^5.8.1"
+	},
+	"name": "mondodb",
+	"version": "1.0.0",
+	"main": "index.js",
+	"devDependencies": {
+		"dotenv": "^16.3.1"
+	},
+	"scripts": {
+		"start": "node index",
+		"dev": "node --watch -r dotenv/config index"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": ""
+}
