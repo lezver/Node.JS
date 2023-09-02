@@ -1,6 +1,6 @@
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
-const { User, loginSchema } = require("../../models");
+const { User } = require("../../models");
 const { wrapperError, httpError } = require("../../helpers");
 const { SECRET_KEY } = process.env;
 const incorrect = "Email or password incorrect";
