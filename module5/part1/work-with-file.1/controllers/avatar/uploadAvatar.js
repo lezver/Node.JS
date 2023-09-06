@@ -9,8 +9,6 @@ const uploadAvatar = async (req, res) => {
 		path.join(__dirname, "..", "..", "public", req.file.filename)
 	);
 
-	console.log(req.user);
-
 	const uploadedAvatarUser = await User.findByIdAndUpdate(
 		req.user.id,
 		{
